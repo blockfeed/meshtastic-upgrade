@@ -114,7 +114,3 @@ Prints the selected release, paths, and exact commands without flashing.
 - Two-step flash with optional `--change-mode` first.
 - No writes occur with `--dry-run`.
 - Uses a cache directory (`.meshtastic_firmware_cache/`) to avoid repeated downloads.
-
-## License
-
-GPL-3.0-or-later (adjust as needed for your repo).
