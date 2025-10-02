@@ -7,7 +7,7 @@ Make the script executable once:
 chmod +x ./meshtastic_upgrade.py
 ```
 
-Then run (alpha prerelease, ESP32-S3, include change-mode, explicit port & board):
+Upgrade a tlora_t3s3_v1 to latest alpha on /dev/ttyACM0, using 1200bps mode change:
 ```bash
 ./meshtastic_upgrade.py --firmware esp32s3 --change-mode --port /dev/ttyACM0 --alpha --board tlora-t3s3-v1
 ```
@@ -114,3 +114,8 @@ Prints the selected release, paths, and exact commands without flashing.
 - Two-step flash with optional `--change-mode` first.
 - No writes occur with `--dry-run`.
 - Uses a cache directory (`.meshtastic_firmware_cache/`) to avoid repeated downloads.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).  
+See the [LICENSE](LICENSE) file for full details.
